@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/examples/resources/spring-config
+END
+config-ftplets.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/examples/resources/spring-config/config-ftplets.xml
+END
+config-full.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/examples/resources/spring-config/config-full.xml
+END
+config-typical.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/examples/resources/spring-config/config-typical.xml
+END
+config-minimal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/examples/resources/spring-config/config-minimal.xml
+END

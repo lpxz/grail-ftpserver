@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/listener
+END
+Listener.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/listener/Listener.java
+END
+ListenerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/listener/ListenerFactory.java
+END

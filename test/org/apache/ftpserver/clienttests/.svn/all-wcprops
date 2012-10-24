@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests
+END
+PasvUsedPortTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/PasvUsedPortTest.java
+END
+ConcatedCommandsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/ConcatedCommandsTest.java
+END
+DeleteTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/DeleteTest.java
+END
+MFMTTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/MFMTTest.java
+END
+CdCaseInsensitiveTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/CdCaseInsensitiveTest.java
+END
+ListPassiveTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/ListPassiveTest.java
+END
+RenameTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/RenameTest.java
+END
+PasvTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/PasvTest.java
+END
+PasvAddressWithHostnameTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/PasvAddressWithHostnameTest.java
+END
+ListTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/ListTest.java
+END
+IpFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/IpFilterTest.java
+END
+LoginNoAnonTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/LoginNoAnonTest.java
+END
+LangTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/LangTest.java
+END
+PasvPortUnavailableTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/PasvPortUnavailableTest.java
+END
+DefaultMaxLoginTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/DefaultMaxLoginTest.java
+END
+PortTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/PortTest.java
+END
+DataTransferTimeoutTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/DataTransferTimeoutTest.java
+END
+StorePassiveTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/StorePassiveTest.java
+END
+ConnectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/ConnectTest.java
+END
+UnlimitedMaxLoginTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/UnlimitedMaxLoginTest.java
+END
+ActiveModeReplyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/ActiveModeReplyTest.java
+END
+FtpMd5Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/FtpMd5Test.java
+END
+MDTMTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/MDTMTest.java
+END
+SuspendResumeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/SuspendResumeTest.java
+END
+SystTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/SystTest.java
+END
+DirectoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/DirectoryTest.java
+END
+SiteTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/SiteTest.java
+END
+ConnectPickPortTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/ConnectPickPortTest.java
+END
+DecoderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/DecoderTest.java
+END
+LoginTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/LoginTest.java
+END
+CustomMaxLoginTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/CustomMaxLoginTest.java
+END
+ClientTestTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/ClientTestTemplate.java
+END
+SizeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/SizeTest.java
+END
+StatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/StatTest.java
+END
+RmDirTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/RmDirTest.java
+END
+PasvAddressTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/PasvAddressTest.java
+END
+I18NTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/I18NTest.java
+END
+FeatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/FeatTest.java
+END
+RetrievePassiveTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/RetrievePassiveTest.java
+END
+TypeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/TypeTest.java
+END
+RetrieveTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/RetrieveTest.java
+END
+CdTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/CdTest.java
+END
+HelpTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/HelpTest.java
+END
+SubnetBlacklistTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/SubnetBlacklistTest.java
+END
+BindExceptionSerialTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/BindExceptionSerialTest.java
+END
+StoreTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/StoreTest.java
+END
+InetAddressBlacklistTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/clienttests/InetAddressBlacklistTest.java
+END

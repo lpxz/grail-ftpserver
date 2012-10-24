@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/filesystem/nativefs/impl
+END
+NativeFtpFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/filesystem/nativefs/impl/NativeFtpFile.java
+END
+NameEqualsFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/filesystem/nativefs/impl/NameEqualsFileFilter.java
+END
+NativeFileSystemView.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/filesystem/nativefs/impl/NativeFileSystemView.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/filesystem/nativefs/impl/package.html
+END

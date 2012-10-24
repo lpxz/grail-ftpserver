@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/util
+END
+RegularExprTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/util/RegularExprTest.java
+END
+EncryptUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/util/EncryptUtilsTest.java
+END
+BasePropertiesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/util/BasePropertiesTest.java
+END
+SocketAddressEncoderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/util/SocketAddressEncoderTest.java
+END

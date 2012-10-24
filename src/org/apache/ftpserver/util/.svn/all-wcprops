@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util
+END
+RegularExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/RegularExpr.java
+END
+OS.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/OS.java
+END
+EncryptUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/EncryptUtils.java
+END
+ClassUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/ClassUtils.java
+END
+BaseProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/BaseProperties.java
+END
+FileRegularFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/FileRegularFilter.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/StringUtils.java
+END
+IoUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/IoUtils.java
+END
+IllegalPortException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/IllegalPortException.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/DateUtils.java
+END
+IllegalInetAddressException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/IllegalInetAddressException.java
+END
+SocketAddressEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/util/SocketAddressEncoder.java
+END

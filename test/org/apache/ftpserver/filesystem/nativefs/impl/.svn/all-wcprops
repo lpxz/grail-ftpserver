@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/filesystem/nativefs/impl
+END
+FtpFileTestTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/filesystem/nativefs/impl/FtpFileTestTemplate.java
+END
+NativeFileSystemViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/filesystem/nativefs/impl/NativeFileSystemViewTest.java
+END
+FileSystemViewTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/filesystem/nativefs/impl/FileSystemViewTemplate.java
+END
+NativeFileObjectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/filesystem/nativefs/impl/NativeFileObjectTest.java
+END

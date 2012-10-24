@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver
+END
+FtpServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/FtpServer.java
+END
+DataConnectionConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/DataConnectionConfiguration.java
+END
+ConnectionConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/ConnectionConfig.java
+END
+FtpServerConfigurationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/FtpServerConfigurationException.java
+END
+DataConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/DataConnectionException.java
+END
+FtpServerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/FtpServerFactory.java
+END
+DataConnectionConfigurationFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/DataConnectionConfigurationFactory.java
+END
+ConnectionConfigFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/ConnectionConfigFactory.java
+END

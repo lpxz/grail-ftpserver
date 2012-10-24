@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer
+END
+FtpLetReturnDefaultTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetReturnDefaultTest.java
+END
+FtpLetOnConnectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetOnConnectTest.java
+END
+FtpLetReturnSkipTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetReturnSkipTest.java
+END
+FtpLetThrowRuntimeExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetThrowRuntimeExceptionTest.java
+END
+MockFtpletCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/MockFtpletCallback.java
+END
+DefaultFtpLetContainerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/DefaultFtpLetContainerTest.java
+END
+FtpLetReturnDisconnectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetReturnDisconnectTest.java
+END
+MockFtplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/MockFtplet.java
+END
+FtpLetThrowIOExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetThrowIOExceptionTest.java
+END
+FtpLetThrowFtpExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetThrowFtpExceptionTest.java
+END
+FtpLetContainerTestTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ftpletcontainer/FtpLetContainerTestTemplate.java
+END

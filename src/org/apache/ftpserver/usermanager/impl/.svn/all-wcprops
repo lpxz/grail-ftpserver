@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl
+END
+DbUserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/DbUserManager.java
+END
+UserMetadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/UserMetadata.java
+END
+WritePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/WritePermission.java
+END
+WriteRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/WriteRequest.java
+END
+ConcurrentLoginPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/ConcurrentLoginPermission.java
+END
+ConcurrentLoginRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/ConcurrentLoginRequest.java
+END
+PropertiesUserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/PropertiesUserManager.java
+END
+BaseUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/BaseUser.java
+END
+TransferRatePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/TransferRatePermission.java
+END
+TransferRateRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/TransferRateRequest.java
+END
+AbstractUserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/usermanager/impl/AbstractUserManager.java
+END

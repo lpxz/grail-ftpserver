@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl
+END
+MinaImplicitClientAuthTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaImplicitClientAuthTest.java
+END
+MinaImplicitSSLTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaImplicitSSLTest.java
+END
+MinaImplicitDataChannelTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaImplicitDataChannelTest.java
+END
+MinaImplicitTLSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaImplicitTLSTest.java
+END
+ExplicitSecurityTestTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/ExplicitSecurityTestTemplate.java
+END
+MinaClientAuthTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaClientAuthTest.java
+END
+MinaExplicitSSLTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaExplicitSSLTest.java
+END
+MinaExplicitTLSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaExplicitTLSTest.java
+END
+MinaCipherSuitesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/MinaCipherSuitesTest.java
+END
+SSLTestTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/SSLTestTemplate.java
+END
+ImplicitSecurityTestTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/ssl/ImplicitSecurityTestTemplate.java
+END

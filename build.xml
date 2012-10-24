@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="ftpserver_work">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.junit_4.8.1.v4_8_1_v20100427-1100/junit.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+    </path>
+    <path id="ftpserver_work.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="lib/commons-logging-1.1.1.jar"/>
+        <pathelement location="lib/log4j-1.2.14.jar"/>
+        <pathelement location="lib/mina-core-2.0.4.jar"/>
+        <pathelement location="lib/slf4j-api-1.5.2.jar"/>
+        <pathelement location="lib/slf4j-log4j12-1.5.2.jar"/>
+        <pathelement location="lib/ftplet-api-1.0.6.jar"/>
+        <pathelement location="lib/commons-net-3.1.jar"/>
+        <pathelement location="lib/spring-beans-2.5.5.jar"/>
+        <pathelement location="lib/spring-context-2.5.5.jar"/>
+        <pathelement location="lib/spring-core-2.5.5.jar"/>
+        <pathelement location="lib/spring-web-2.5.5.jar"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+                <exclude name="test/resource/"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="resource">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="test">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src"/>
+            <exclude name="test/resource/"/>
+            <classpath refid="ftpserver_work.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="resource"/>
+            <classpath refid="ftpserver_work.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="test"/>
+            <classpath refid="ftpserver_work.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="PortTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="org.apache.ftpserver.clienttests.PortTest" todir="${junit.output.dir}"/>
+            <classpath refid="ftpserver_work.classpath"/>
+        </junit>
+    </target>
+    <target name="ListTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="org.apache.ftpserver.clienttests.ListTest" todir="${junit.output.dir}"/>
+            <classpath refid="ftpserver_work.classpath"/>
+        </junit>
+    </target>
+    <target name="FTPMainDriver (1)">
+        <java classname="driver.FTPMainDriver" failonerror="true" fork="yes">
+            <arg line="/home/lpxz/eclipse/workspace/ftpserver_work/src/test/resources/users.properties"/>
+            <classpath refid="ftpserver_work.classpath"/>
+        </java>
+    </target>
+    <target name="DirectoryTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="org.apache.ftpserver.clienttests.DirectoryTest" todir="${junit.output.dir}"/>
+            <classpath refid="ftpserver_work.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

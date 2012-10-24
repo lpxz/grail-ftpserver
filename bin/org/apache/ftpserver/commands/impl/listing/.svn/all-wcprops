@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/commands/impl/listing
+END
+MLSTFileFormaterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/commands/impl/listing/MLSTFileFormaterTest.java
+END
+NLSTFileFormaterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/commands/impl/listing/NLSTFileFormaterTest.java
+END
+DirectoryListerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/commands/impl/listing/DirectoryListerTest.java
+END
+LISTFileFormaterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/commands/impl/listing/LISTFileFormaterTest.java
+END
+ListArgumentParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/commands/impl/listing/ListArgumentParserTest.java
+END
+ListArgumentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/commands/impl/listing/ListArgumentTest.java
+END

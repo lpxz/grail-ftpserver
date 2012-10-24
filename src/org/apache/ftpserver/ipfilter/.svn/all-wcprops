@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/ipfilter
+END
+IpFilterType.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/ipfilter/IpFilterType.java
+END
+DefaultIpFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/ipfilter/DefaultIpFilter.java
+END
+MinaIpFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/ipfilter/MinaIpFilter.java
+END
+IpFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/ipfilter/IpFilter.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring
+END
+FileUserManagerConfigTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/FileUserManagerConfigTest.java
+END
+MockUserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/MockUserManager.java
+END
+SpringConfigTestTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/SpringConfigTestTemplate.java
+END
+DbUserManagerConfigTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/DbUserManagerConfigTest.java
+END
+MyCustomListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/MyCustomListener.java
+END
+FtpletsConfigTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/FtpletsConfigTest.java
+END
+PropertyPlaceholderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/PropertyPlaceholderTest.java
+END
+SpringConfigTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/SpringConfigTest.java
+END
+TestFtplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/test/java/org/apache/ftpserver/config/spring/TestFtplet.java
+END

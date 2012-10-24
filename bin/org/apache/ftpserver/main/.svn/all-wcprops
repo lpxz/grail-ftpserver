@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/main
+END
+Daemon.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/main/Daemon.java
+END
+CommandLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/main/CommandLine.java
+END
+AddUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1144470/mina/ftpserver/tags/1.0.6/core/src/main/java/org/apache/ftpserver/main/AddUser.java
+END
