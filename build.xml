@@ -28,7 +28,7 @@
         <pathelement location="lib/spring-context-2.5.5.jar"/>
         <pathelement location="lib/spring-core-2.5.5.jar"/>
         <pathelement location="lib/spring-web-2.5.5.jar"/>
-        <path refid="JUnit 4.libraryclasspath"/>
+    	 <pathelement location="lib/junit-4.10.jar"/>    	
     </path>
     <target name="init">
         <mkdir dir="bin"/>
