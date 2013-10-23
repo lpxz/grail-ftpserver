@@ -1,34 +1,9 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *  http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-
 package org.apache.ftpserver.util;
 
 import java.util.Locale;
 
-/**
- * <strong>Internal class, do not use directly.</strong>
- * 
- * Condition that tests the OS type.
- *
- * @author <a href="http://mina.apache.org">Apache MINA Project</a>
- */
 public final class OS {
+
     private static final String FAMILY_OS_400 = "os/400";
 
     private static final String FAMILY_Z_OS = "z/os";
@@ -51,43 +26,17 @@ public final class OS {
 
     private static final String FAMILY_WINDOWS = "windows";
 
-    private static final String OS_NAME = System.getProperty("os.name")
-            .toLowerCase(Locale.US);
+    private static final String OS_NAME = System.getProperty("os.name").toLowerCase(Locale.US);
 
-    private static final String OS_ARCH = System.getProperty("os.arch")
-            .toLowerCase(Locale.US);
+    private static final String OS_ARCH = System.getProperty("os.arch").toLowerCase(Locale.US);
 
-    private static final String OS_VERSION = System.getProperty("os.version")
-            .toLowerCase(Locale.US);
+    private static final String OS_VERSION = System.getProperty("os.version").toLowerCase(Locale.US);
 
     private static final String PATH_SEP = System.getProperty("path.separator");
 
-    /**
-     * Default constructor
-     */
     private OS() {
     }
 
-    /**
-     * Determines if the OS on which Ant is executing matches the given OS
-     * family. * Possible values:<br />
-     * <ul>
-     * <li>dos</li>
-     * <li>mac</li>
-     * <li>netware</li>
-     * <li>os/2</li>
-     * <li>tandem</li>
-     * <li>unix</li>
-     * <li>windows</li>
-     * <li>win9x</li>
-     * <li>z/os</li>
-     * <li>os/400</li>
-     * </ul>
-     * 
-     * @param family
-     *            the family to check for
-     * @return true if the OS matches
-     */
     private static boolean isFamily(final String family) {
         return isOs(family, null, null, null);
     }
@@ -136,66 +85,25 @@ public final class OS {
         return isFamily(FAMILY_OPENVMS);
     }
 
-    /**
-     * Determines if the OS on which Ant is executing matches the given OS name.
-     * 
-     * @param name
-     *            the OS name to check for
-     * @return true if the OS matches
-     */
     public static boolean isName(final String name) {
         return isOs(null, name, null, null);
     }
 
-    /**
-     * Determines if the OS on which Ant is executing matches the given OS
-     * architecture.
-     * 
-     * @param arch
-     *            the OS architecture to check for
-     * @return true if the OS matches
-     */
     public static boolean isArch(final String arch) {
         return isOs(null, null, arch, null);
     }
 
-    /**
-     * Determines if the OS on which Ant is executing matches the given OS
-     * version.
-     * 
-     * @param version
-     *            the OS version to check for
-     * @return true if the OS matches
-     */
     public static boolean isVersion(final String version) {
         return isOs(null, null, null, version);
     }
 
-    /**
-     * Determines if the OS on which Ant is executing matches the given OS
-     * family, name, architecture and version
-     * 
-     * @param family
-     *            The OS family
-     * @param name
-     *            The OS name
-     * @param arch
-     *            The OS architecture
-     * @param version
-     *            The OS version
-     * @return true if the OS matches
-     */
-    public static boolean isOs(final String family, final String name,
-            final String arch, final String version) {
+    public static boolean isOs(final String family, final String name, final String arch, final String version) {
         boolean retValue = false;
-
         if (family != null || name != null || arch != null || version != null) {
-
             boolean isFamily = true;
             boolean isName = true;
             boolean isArch = true;
             boolean isVersion = true;
-
             if (family != null) {
                 if (family.equals(FAMILY_WINDOWS)) {
                     isFamily = OS_NAME.indexOf(FAMILY_WINDOWS) > -1;
@@ -204,33 +112,23 @@ public final class OS {
                 } else if (family.equals(FAMILY_NETWARE)) {
                     isFamily = OS_NAME.indexOf(FAMILY_NETWARE) > -1;
                 } else if (family.equals(FAMILY_DOS)) {
-                    isFamily = PATH_SEP.equals(";")
-                            && !isFamily(FAMILY_NETWARE);
+                    isFamily = PATH_SEP.equals(";") && !isFamily(FAMILY_NETWARE);
                 } else if (family.equals(FAMILY_MAC)) {
                     isFamily = OS_NAME.indexOf(FAMILY_MAC) > -1;
                 } else if (family.equals(FAMILY_TANDEM)) {
                     isFamily = OS_NAME.indexOf("nonstop_kernel") > -1;
                 } else if (family.equals(FAMILY_UNIX)) {
-                    isFamily = PATH_SEP.equals(":")
-                            && !isFamily(FAMILY_OPENVMS)
-                            && (!isFamily(FAMILY_MAC) || OS_NAME.endsWith("x"));
+                    isFamily = PATH_SEP.equals(":") && !isFamily(FAMILY_OPENVMS) && (!isFamily(FAMILY_MAC) || OS_NAME.endsWith("x"));
                 } else if (family.equals(FAMILY_WIN9X)) {
-                    isFamily = isFamily(FAMILY_WINDOWS)
-                            && (OS_NAME.indexOf("95") >= 0
-                                    || OS_NAME.indexOf("98") >= 0
-                                    || OS_NAME.indexOf("me") >= 0 || OS_NAME
-                                    .indexOf("ce") >= 0);
+                    isFamily = isFamily(FAMILY_WINDOWS) && (OS_NAME.indexOf("95") >= 0 || OS_NAME.indexOf("98") >= 0 || OS_NAME.indexOf("me") >= 0 || OS_NAME.indexOf("ce") >= 0);
                 } else if (family.equals(FAMILY_Z_OS)) {
-                    isFamily = OS_NAME.indexOf(FAMILY_Z_OS) > -1
-                            || OS_NAME.indexOf("os/390") > -1;
+                    isFamily = OS_NAME.indexOf(FAMILY_Z_OS) > -1 || OS_NAME.indexOf("os/390") > -1;
                 } else if (family.equals(FAMILY_OS_400)) {
                     isFamily = OS_NAME.indexOf(FAMILY_OS_400) > -1;
                 } else if (family.equals(FAMILY_OPENVMS)) {
                     isFamily = OS_NAME.indexOf(FAMILY_OPENVMS) > -1;
                 } else {
-                    throw new IllegalArgumentException(
-                            "Don\'t know how to detect os family \"" + family
-                                    + "\"");
+                    throw new IllegalArgumentException("Don\'t know how to detect os family \"" + family + "\"");
                 }
             }
             if (name != null) {

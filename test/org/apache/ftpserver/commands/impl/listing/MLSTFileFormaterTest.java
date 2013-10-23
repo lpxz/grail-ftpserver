@@ -1,22 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *  http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-
 package org.apache.ftpserver.commands.impl.listing;
 
 import java.io.IOException;
@@ -25,20 +6,15 @@ import java.io.OutputStream;
 import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
-
 import junit.framework.TestCase;
-
 import org.apache.ftpserver.command.impl.listing.MLSTFileFormater;
 import org.apache.ftpserver.ftplet.FtpFile;
 
-/**
-*
-* @author <a href="http://mina.apache.org">Apache MINA Project</a>*
-*/
 @SuppressWarnings("deprecation")
 public class MLSTFileFormaterTest extends TestCase {
 
-    private static final Calendar LAST_MODIFIED_IN_2005 = Calendar.getInstance(TimeZone.getTimeZone("GMT")); 
+    private static final Calendar LAST_MODIFIED_IN_2005 = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
+
     static {
         LAST_MODIFIED_IN_2005.clear();
         LAST_MODIFIED_IN_2005.set(2005, Calendar.JANUARY, 2, 3, 4, 5);
@@ -49,6 +25,7 @@ public class MLSTFileFormaterTest extends TestCase {
     public MLSTFileFormater formater = new MLSTFileFormater(null);
 
     public static class MockFileObject implements FtpFile {
+
         public InputStream createInputStream(long offset) throws IOException {
             return null;
         }
@@ -130,19 +107,17 @@ public class MLSTFileFormaterTest extends TestCase {
         }
 
         public boolean setLastModified(long time) {
-           return false;
-            
+            return false;
         }
     }
 
     public void testSingleFile() {
-        // time should be in UTC
-        assertEquals("Size=13;Modify=20050102030405.000;Type=file; short\r\n",
-                formater.format(TEST_FILE));
+        assertEquals("Size=13;Modify=20050102030405.000;Type=file; short\r\n", formater.format(TEST_FILE));
     }
 
     public void testSingleDir() {
         FtpFile dir = new MockFileObject() {
+
             public boolean isDirectory() {
                 return true;
             }
@@ -154,11 +129,7 @@ public class MLSTFileFormaterTest extends TestCase {
             public long getSize() {
                 return 0;
             }
-
         };
-
-        // time should be in UTC
-        assertEquals("Size=0;Modify=20050102030405.000;Type=dir; short\r\n",
-                formater.format(dir));
+        assertEquals("Size=0;Modify=20050102030405.000;Type=dir; short\r\n", formater.format(dir));
     }
 }
